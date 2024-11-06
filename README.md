@@ -28,11 +28,20 @@ graph TD
 
 ## 기술 스택
 
-- Python 3.8+
-- Langchain
-- Groq LLM API
-- Asyncio
-- Pydantic
+- streamlit>=1.24.0
+- langchain-core>=0.3.0
+- langchain-groq==0.2.0
+- google-search-results==2.4.2
+- wikipedia==1.4.0
+- pydantic>=2.4.2
+- wikipedia
+- langchain
+- langchain-community
+- duckduckgo-search
+- youtube-search-python
+- arxiv
+- python-dotenv
+- watchdog
 
 ## 설치 방법
 
@@ -186,6 +195,11 @@ main.py, custom_agent.py, agent_config.py, config.py, prompts.py, user_input.py 
 - 에러 처리 및 재시도 로직 추가: 네트워크 오류, API 한도 초과 등의 상황 대비
 - 각 에이전트 프롬프트 개선: 초기 테스트 결과를 바탕으로 더 정확하고 상세한 분석을 위한 프롬프트 수정, 한국 패션 시장에 특화된 내용 추가
 - 지속적인 테스트 진행: 다양한 사용자 프로필과 상황을 가정한 시나리오 테스트, 결과의 일관성 및 품질 확인
+
+### 2024년 11월 6일 (수요일) - Streamlit으로 프로토타입 Saas 구현
+- 웹서비스로 만들기 위해 스트림릿으로 프로토타입 제작
+- 보고서 내용을 좀 더 체계화할 필요가 있어보임
+- 프롬프트 개선 및 입출력 방식 체계에 대해 고민 시작
 
 ## 주요 도전 과제 및 해결 방안
 1) 비동기 처리 최적화:
