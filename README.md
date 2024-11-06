@@ -89,6 +89,7 @@ graph TD
 ai-fashion-stylist/
 │
 ├── main.py                 # 메인 실행 파일
+├── app.py                  # streamlit 실행 파일
 ├── custom_agent.py         # AI 에이전트 클래스 정의
 ├── agent_config.py         # 에이전트 설정 및 초기화
 ├── config.py               # 설정 파일
