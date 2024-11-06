@@ -2,7 +2,7 @@ from typing import Tuple
 from custom_agent import CustomAgent, ReportAgent
 from config import initialize_llm
 from langchain.tools import Tool
-from langchain.tools.ddg_search.tool import DuckDuckGoSearchRun
+from langchain_community.tools import DuckDuckGoSearchRun
 from langchain_community.tools.youtube.search import YouTubeSearchTool
 from langchain_community.tools import ArxivQueryRun
 from prompts import USER_ANALYST_PROMPT, TREND_ANALYST_PROMPT, STYLIST_PROMPT, REPORT_AGENT_PROMPT
